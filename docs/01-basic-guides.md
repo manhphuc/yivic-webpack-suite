@@ -4,8 +4,8 @@
 $ git clone https://github.com/manhphuc/yivic-webpack-suite yivic-webpack-suite
 $ cd yivic-webpack-suite
 ```
-- Copy .env-example -> .env
-```sh
-$ cp .env.example .env
-```
 - Run below command to set up
+```sh
+$ npm install
+$ npm run watch
+```

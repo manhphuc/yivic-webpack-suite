@@ -1,14 +1,20 @@
 /* Main JS */
 
-"use strict";
+//"use strict";
 
-// Import Jquery
+// Import JQuery by PhucNguyen
 import $ from 'jquery';
-
 window.jQuery = $;
 window.jquery = $;
 window.$ = $;
 
-// Import Bootstrap
-import 'bootstrap';
-import './_custom-page';
+// Import Swiper
+//import Swiper from 'swiper';
+
+// Import Parts Global
+import './parts/_yivic-global';
+
+
+
+
+

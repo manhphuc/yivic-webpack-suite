@@ -1,12 +1,21 @@
-/* Main SCSS */
+/* Main CSS */
 
 // Import Fonts
-@import "fonts";
+@import "font";
 
 // Import Bootstrap
 @import "~bootstrap/scss/bootstrap-reboot";
 @import "~bootstrap/scss/bootstrap";
 @import "~bootstrap/scss/bootstrap-grid";
 
-// Import CustomPage
-@import "custom-page";
+// Global Variables
+@import "variables-effects";
+
+// Reset
+@import "reset";
+
+// Base CSS
+@import "base";
+
+// Home Main Sections
+@import "parts/main";
